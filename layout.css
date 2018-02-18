@@ -1,0 +1,37 @@
+.layout-main{
+    display: flex;
+    width: auto;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.layout-item {
+  /* background-color: tomato; */
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-direction: column;
+}
+
+.layout-1 .layout-item:nth-child(1) {
+  display: flex;
+  width: 960px;
+  height: 200px;
+}
+
+.layout-1 .layout-item:nth-child(2) {
+  width:697px;
+}
+
+.layout-1 .layout-item:nth-child(3) {
+  width:243px;
+}
+
+.layout-1 .layout-item:nth-child(4) {
+  width: 960px;
+  height: 100px;
+}
