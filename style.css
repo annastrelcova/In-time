@@ -20,8 +20,8 @@ h2 {
     color: #212121;
 }
 
-h5{
-    font-size:11px;
+h5 {
+    font-size: 11px;
     color: #969696;
     padding: -10px;
     margin-top: -15px;
@@ -32,8 +32,8 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-hr{
-    color:#969696;
+hr {
+    color: #969696;
 }
 
 .header-top {
@@ -49,14 +49,13 @@ hr{
     align-items: center;
 }
 
-.phone > img{
+.phone>img {
     padding-right: 10px;
 }
 
 .logo {
     flex-grow: 1;
     justify-self: flex-end;
-    
 }
 
 .block-img {
@@ -65,68 +64,72 @@ hr{
 }
 
 .block-img:nth-child(1) {
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .block-img:nth-child(2) {
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .block-img:nth-child(3) {
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
-.phone > h4{
+
+.phone>h4 {
     size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #212121;
-    
 }
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     padding: 10px 0;
-    margin:0;
+    margin: 0;
     list-style: none;
     background-color: #f1f1f1;
     text-decoration: none;
-    justify-content: space-between; 
-    
+    justify-content: space-between;
 }
 
-.navbar-nav > li > a{
+.navbar-nav>li>a {
     text-decoration: none;
-    color:#393939;
-     
+    color: #393939;
 }
 
-.h3{
+.h3 {
     margin-top: 50px;
 }
 
-h3{
+h3 {
     size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #212121;
 }
 
-h4{
+h4 {
     size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #212121; 
+    color: #212121;
 }
 
-input{
+li{
+padding: 10px;
+}
+
+li > .list-2{
+    list-style: none;
+}
+
+input {
     height: 27px;
-    border-radius: 3px ;
-    
+    border-radius: 3px;
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
     position: relative;
-    
 }
 
 .form-append {
@@ -135,15 +138,56 @@ input{
     right: 8px;
 }
 
-.breadcrumb{
+.breadcrumb {
     display: flex;
     padding: 10px 0;
     font-size: 11px;
 }
 
-.breadcrumb-item > a{
+.breadcrumb-item>a {
     padding-right: 20px;
-    color:#212121;
-    
+    color: #212121;
 }
 
+.button {
+    height: 30px;
+    background-color: #e9e9e9;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding:0 20px;
+    text-align: center;
+    border: none;
+}
+
+.form-newsleter {
+    display: flex;
+    border-color: #969696;
+
+}
+
+.form-control {
+    padding: 0 5px;
+    font-size: 11px;
+    color: #969696;
+}
+
+.form-button {
+    position: absolute;
+    right: 357px;
+    padding: 20px 0;
+}
+
+.button-primary {
+    background-color: #24b5e1;
+    color: #fff;
+}
+.border{
+    width: 217px;
+    height: 195px;
+    overflow: hidden;
+}
+.border > img{
+    display: inline-block;
+    height: 100%;
+}
