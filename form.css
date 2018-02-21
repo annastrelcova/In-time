@@ -1,0 +1,68 @@
+.form-control {
+    font-size: 11px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-left: 5px;
+}
+
+.button {
+    height: 30px;
+    background-color: #e9e9e9;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 0 20px;
+    text-align: center;
+    border: none;
+}
+
+.button-primary {
+    background-color: #24b5e1;
+    color: #fff;
+}
+
+input {
+    height: 27px;
+    border-radius: 3px;
+}
+
+.form-search {
+    margin-top: 26px;
+}
+
+.form-append {
+    position: absolute;
+    top: 7px;
+    right: 3px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button-one {
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.form-newsleter {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    align-self: flex-end;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-button {
+    margin-top: 10px;
+}

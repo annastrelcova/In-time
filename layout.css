@@ -11,7 +11,7 @@
 
 .layout-item {
   /* background-color: tomato; */
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   margin-left: 10px;
   margin-right: 10px;
   flex-direction: column;
@@ -34,8 +34,8 @@
 .layout-1 .layout-item:nth-child(4) {
   width: 960px;
   height: 100px;
+  
+  /* padding-top: 20px; */
 }
 
-.form-group{
-  padding: 10px 0;
-}
+

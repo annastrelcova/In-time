@@ -1,0 +1,56 @@
+table {
+    font-size: 11px;
+    color: #323232;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: normal;
+    color: #7d7d7d;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table thead {
+    color: #000000;
+}
+
+.table thead tr {
+    position: relative;
+}
+
+.table tbody {
+    width: 100%;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: rgb(243, 243, 243);
+}
+
+.table tbody tr td:nth-child(2) {
+    color: #24b6e1;
+}
+
+.old_ie_wrapper {
+    height: 300px;
+    width: 750px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.old_ie_wrapper tbody {
+    height: auto;
+}
+
+tbody tr td a {
+    color: #24b6e1;
+    font-size: 11px;
+}
+
